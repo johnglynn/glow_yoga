@@ -1315,13 +1315,13 @@ footer h6 a:hover{
 /*-*-*-*-*-*  START FAMILY.HTML MEDIA QUERIES *-*-*-*-*-*/
 
 	.mobile_family{
-		background-color: #f9f2de;
+		background-color: white;
 		padding-top: 2%;
 
 	}
 
 	.mobile_family .clickable{
-		background-color: rgb(216, 182, 106);
+		background-color: #f9f2de;
 		width: 90%;
 		margin: 0 auto;
 		
@@ -1331,11 +1331,20 @@ footer h6 a:hover{
 	.mobile_family .mobile_family_instructor_class{
 		padding: 10% 0% 10% 0%;
 		font-family: "Open Sans";
+		color: #7E7E7E;
 		line-height: 2.75vh;
+	}
+
+	.mobile_family_instructor_class h3{
+		color: #7E7E7E;
 	}
 
 	.mobile_family_instructor_class h4{
 		font-family: "Foxglow-Regular";
+		/*font-family: "Dancing Script";*/
+		color: #ad7f04;
+		font-weight: 500;
+		letter-spacing: 0.125vw;
 		text-transform: lowercase;
 		font-size: 7.5vw;
 	}
@@ -1343,7 +1352,7 @@ footer h6 a:hover{
 
 
 	.mobile_family .mobile_family_text{
-		background-color: rgb(216, 182, 106);
+		background-color: #f9f2de;
 		width: 90%;
 		margin: 0 auto;
 
@@ -1370,6 +1379,7 @@ footer h6 a:hover{
 
 	.mobile_family_text p{
 		font-family: "Open Sans";
+		color: #7E7E7E;
 		padding: 0% 10% 0% 10%;
 		font-size: 3.75vw;
     	text-align: justify;
